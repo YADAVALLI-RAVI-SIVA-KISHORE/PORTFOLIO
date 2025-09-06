@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>YADAVALLI RAVI SIVA KISHORE - Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://www.gstatic.com/firebasejs/9.20.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.20.0/firebase-firestore-compat.js"></script>
+  <script src="firebase-config.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div id="background-3d"></div>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="home" class="section card">
+      <h1>YADAVALLI RAVI SIVA KISHORE</h1>
+      <p class="headline">Full Stack Developer</p>
+      <ul class="bio-list">
+        <li>Transforming ideas into digital reality</li>
+        <li>Crafting elegant and responsive designs</li>
+        <li>Building secure, scalable solutions</li>
+      </ul>
+    </section>
+    <section id="about" class="section card">
+      <h2>About Me</h2>
+      <p>I am Y.Ravi Siva Kishore, a Fullstack Developer. I create websites and applications using different programming languages and tools. My goal is to build easy-to-use and reliable software.</p>
+    </section>
+    <section id="skills" class="section card">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Core Java</li>
+        <li>Python</li>
+        <li>MySQL</li>
+        <li>Firebase</li>
+      </ul>
+    </section>
+    <section id="projects" class="section card">
+      <h2>Projects</h2>
+      <div class="projects-container">
+        <div class="project-card neon-card">
+          <h3>Portfolio Website</h3>
+          <p>Created a professional portfolio showcasing skills and projects.</p>
+          <p><strong>Technologies:</strong> HTML, CSS, JavaScript, Firebase</p>
+        </div>
+        <div class="project-card neon-card">
+          <h3>Web Apps</h3>
+          <p>Developed multiple web applications with dynamic functionality.</p>
+          <p><strong>Technologies:</strong> JavaScript, Firebase, MySQL</p>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="section card">
+      <h2>Contact Me</h2>
+      <div class="contact-info">
+        <p><strong>Email:</strong> <a href="mailto:yrsk.kishore@gmail.com">yrsk.kishore@gmail.com</a></p>
+        <p><strong>Phone:</strong> 7075824124</p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/ravi-siva-kishore-yadavalli-987049357?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">linkedin.com/in/ravi-siva-kishore-yadavalli</a></p>
+        <p><strong>GitHub:</strong> <a href="https://GitHub.com/YADAVALLI-RAVI-SIVA-KISHORE" target="_blank">github.com/YADAVALLI-RAVI-SIVA-KISHORE</a></p>
+      </div>
+      <form id="contact-form">
+        <input type="text" placeholder="Your name" id="name" required />
+        <input type="email" placeholder="Your email" id="email" required />
+        <textarea placeholder="Your message" id="message" required></textarea>
+        <button type="submit" class="btn">Send</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 YADAVALLI RAVI SIVA KISHORE. All rights reserved.</p>
+  </footer>
+</body>
+</html>
